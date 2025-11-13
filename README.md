@@ -10,4 +10,5 @@ gdb-multiarch
 (gdb) target remote localhost:4242
 (gdb) lay next 	# to run the code in the environment
 (gdb) lay reg 	# to see the registers of the code
+(gdb) ni
 ```
