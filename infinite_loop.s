@@ -1,4 +1,4 @@
-.global _start # Infinite loop program
+.global _start ;Infinite loop program
 .section .text
 
 _start:
