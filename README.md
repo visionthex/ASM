@@ -1,6 +1,8 @@
 # ASM
 
 Setup
+`$ sudo apt install build-essential gcc-arm-linux-gnueabihf qemu-user`
+
 ```bash
 arm-linux-gnueabihf-gcc -o filename filename.s -nostdlib -static
 qemu-arm -g 4242 ./filename
