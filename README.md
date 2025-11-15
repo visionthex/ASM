@@ -1,6 +1,7 @@
 # ASM
 
 Setup
+
 `$ sudo apt install build-essential gcc-arm-linux-gnueabihf qemu-user`
 
 ```bash
@@ -14,3 +15,8 @@ gdb-multiarch
 (gdb) lay reg 	# to see the registers of the code
 (gdb) ni
 ```
+
+Test C:
+
+`arm-linux-gnueabihf-gcc -o filename filename.c`
+`arm-linux-gnueabihf-objdump -d ./filename | less`
