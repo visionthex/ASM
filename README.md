@@ -2,7 +2,7 @@
 
 Setup
 
-`$ sudo apt install build-essential gcc-arm-linux-gnueabihf qemu-user`
+`$ sudo apt install build-essential gcc-arm-linux-gnueabihf qemu-user gdb-multiarch`
 
 ```bash
 arm-linux-gnueabihf-gcc -o filename filename.s -nostdlib -static
