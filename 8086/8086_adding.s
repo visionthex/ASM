@@ -1,0 +1,11 @@
+; Program to demonstrate add instructions
+
+start:
+    mov AL, 0xab
+    add AL, 0x01
+    mov BX, 0xabcd
+    add BX, 0x0bcd
+    mov byte[0x00], 0xf0
+    add byte[0x00], 0x0a
+    mov word[0x01], 0xfff0
+    add word[0x01], 0x000c
